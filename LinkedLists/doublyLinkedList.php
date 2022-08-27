@@ -1,5 +1,4 @@
 <?php
-
 //create the node struct
 class Node{
     public $data;

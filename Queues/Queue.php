@@ -59,6 +59,8 @@ class Queue{
             return $this->queue[$this->rear];
         }
     }
+
+    //create a method to remove the element from the specif
 }
 
 //initialize the queue instance
@@ -76,3 +78,4 @@ echo $myQueue->frontElement();
 echo $myQueue->rearElement();
 
 echo $myQueue->size();
+$myQueue->EnQueue(40);
